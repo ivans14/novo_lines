@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "novo-lines-client-side-solution",
+    "id": "b63d93fe-186b-4419-ae5f-5b3e672d400f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "novo-lines description"
+      },
+      "longDescription": {
+        "default": "novo-lines description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "novo-lines Feature",
+        "description": "The feature that activates elements of the novo-lines solution.",
+        "id": "f72db0d3-6d29-4481-b13c-3bbd50671309",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/novo-lines.sppkg"
+  }
+}

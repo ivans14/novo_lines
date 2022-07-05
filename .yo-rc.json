@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "novo-lines",
+    "libraryId": "b63d93fe-186b-4419-ae5f-5b3e672d400f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "novo-lines",
+    "solutionShortDescription": "novo-lines description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
