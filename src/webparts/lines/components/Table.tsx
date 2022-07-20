@@ -1,5 +1,6 @@
 import * as React from "react";
 import GetList from "./MyComp/getList";
+import Panels from "./MyComp/panels";
 
 interface Tableprops {
   props: any;
@@ -8,7 +9,7 @@ interface Tableprops {
 function Table({ props }: Tableprops) {
   return (
     <div>
-      <GetList></GetList>
+      <Panels></Panels>
     </div>
   );
 }

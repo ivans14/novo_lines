@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  height: 60vh;
+  justify-content: space-around;
+}
+
+.dag {
+  flex: 3;
+  margin: 0px 20px;
+  background-color: rgba(137, 255, 255, 0.618);
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.aften {
+  flex: 2;
+  margin: 0px 20px;
+  background-color: rgba(145, 255, 137, 0.618);
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.nat {
+  flex: 2;
+  margin: 0px 20px;
+  background-color: rgba(243, 255, 137, 0.618);
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.text {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.skift {
+  display: flex;
+  flex-direction: column;
+}
+
+.big {
+  flex: 3;
+}
+
+.small {
+  flex: 2;
+}
